@@ -1,0 +1,17 @@
+name: plant_disease_detector
+description: Plant disease detector using API
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  shared_preferences: ^2.3.2
+
+flutter:
+  uses-material-design: true
